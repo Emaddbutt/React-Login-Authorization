@@ -6,7 +6,7 @@
     "main": "indx.js",
     "scripts": {
          "test": "echo \"Error: no test specified\" && exit 1",
-          "start": "nodemon indx.js",
+          "start": "node indx.js",
           "React login project": "cd \"React login project\" && npm run dev",
           "Server": "cd Server && npm start"
     },
