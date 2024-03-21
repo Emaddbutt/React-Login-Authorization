@@ -1,0 +1,19 @@
+{
+    "name": "React-Login-Authorization",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "React login project": "cd React login project && npm run dev",
+        "Server": "cd Server && npm start"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Emaddbutt/React-Login-Authorization.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Emaddbutt/React-Login-Authorization/issues"
+    },
+    "homepage": "https://github.com/Emaddbutt/React-Login-Authorization#readme"
+}
