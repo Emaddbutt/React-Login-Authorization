@@ -5,6 +5,7 @@ const cors = require("cors");
 const EmployeeModel = require("./models/Employee");
 const app = express();
 const dotenv = require('dotenv');
+const path = require ('path');
 
 
 dotenv.config();
@@ -46,9 +47,9 @@ app.post('/register', async (req, res) => {
 });
 
 
-app.use(express.static(path.join(__dirname, "./React login project/dist")));
+app.use(express.static(path.join(__dirname, "../React login project/dist")));
 app.get("*",(req,res)=>{
-    res.sendFile(path.join(__dirname,"./React login project/dist/index.html"));
+    res.sendFile(path.join(__dirname,"../React login project/dist/index.html"));
 })
 
 const PORT = process.env.PORT || 3000;
