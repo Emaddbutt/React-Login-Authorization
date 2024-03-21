@@ -1,10 +1,11 @@
+
 {
     "name": "React-Login-Authorization",
     "version": "1.0.0",
     "description": "",
     "scripts": {
-        "start": "nodemon indx.js"
-        "React login project": "cd React login project && npm run dev",
+        "start": "nodemon index.js", 
+        "React login project": "cd \"React login project\" && npm run dev",
         "Server": "cd Server && npm start"
     },
     "repository": {
