@@ -5,7 +5,7 @@
     "description": "",
     "scripts": {
          "test": "echo \"Error: no test specified\" && exit 1",
-          "start": "node indx.js",
+          "start": "nodemon indx.js",
           "React login project": "cd \"React login project\" && npm run dev",
           "Server": "cd Server && npm start"
     },
