@@ -13,7 +13,7 @@ dotenv.config();
 
 app.use(express.json());
 app.use(cors({
-    origin: 'https://drab-red-codfish-cape.cyclic.app/',
+    origin: 'http://drab-red-codfish-cape.cyclic.app/',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
     optionsSuccessStatus: 204,
