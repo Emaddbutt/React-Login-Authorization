@@ -2,10 +2,10 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "Server/indx.js",
+  "main": "indx.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node Server/indx.js"
+    "start": "node indx.js"
   },
   "keywords": [],
   "author": "",
