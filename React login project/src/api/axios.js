@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-    baseURL: 'http://https://drab-red-codfish-cape.cyclic.app/'
+    baseURL: 'https://drab-red-codfish-cape.cyclic.app'
 });
 
 axiosInstance.interceptors.request.use(config => {
